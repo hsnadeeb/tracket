@@ -1,11 +1,11 @@
-import ExpenseItem from "./components/ExpenseIItem";
+import ExpenseItem from "./components/ExpenseItem";
 
 
 function App() {
   return (
     <div>
-      <h2>HI</h2>
-      <ExpenseItem>Hello</ExpenseItem>
+      <h2>Expense Tracker</h2>
+      <ExpenseItem></ExpenseItem>
     </div>
   );
 }
