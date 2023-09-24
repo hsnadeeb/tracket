@@ -1,5 +1,5 @@
 import ExpenseItem from "./components/Expenses/ExpenseItem";
-
+import ExpenseForm from "./components/Expenses/ExpenseForm";
 const App=()=> {
   const expenses = [
     {
@@ -34,7 +34,7 @@ const App=()=> {
 
   return (
     <div>
-      <h2>Expense Tracker</h2>
+      <ExpenseForm />
       {expenses.map ((expense)=>(
         <ExpenseItem
         id={expense.id}
